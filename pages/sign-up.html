@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/sign-up.css">
+    <link rel="stylesheet" href="../style/materialize.min.css">
+    <title>Admin System - Sign Up</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Admin System</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="../index.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="username" type="text" class="validate">
+                  <label for="username">Username</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="birthday" type="date" class="validate">
+                  <label for="birthday">Birthdate</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="fcolor" type="color" class="validate">
+                </div><label for="fcolor">Favorite color</label>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
+              </div>
+              
+            </form>
+            <a class="waves-effect waves-light btn" onclick="signUp()">Sign Up</a>
+          </div>
+    </div>
+        <script src="../js/sign-up.js"></script>
+        <script src="../js/materialize.min.js"></script>
+</body>
+</html>

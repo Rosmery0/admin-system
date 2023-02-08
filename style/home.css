@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+
+.side-bar {
+    width: 20%;
+    height: 100vh;
+    padding: 0;
+    background-color: rgb(226, 233, 233);
+    border-right: 1px solid rgb(87, 86, 86);
+}
+
+.logo-side-bar {
+    width: 100%;
+    height: 200px;
+    background-color: green;
+}
+
+.logo-side-bar > h1 {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.user-side-bar {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+.user-side-bar > p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.sign-out-btn {
+    width: 50%;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10px;
+    margin: 24%;
+}
+
+.todo-container {
+    width: 80%;
+    height: 100vh;
+    background-color: red;
+}

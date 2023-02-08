@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/materialize.min.css">
+    <title>Admin System - Login</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Admin System</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="./pages/sign-up.html">Sig Up</a></li>
+        </ul>
+        </div>
+    </nav>
+    <div>
+        <div class="container">
+            <h1>Login</h1>
+            <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="username" type="text" class="validate">
+                      <label for="username">Username</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="password" type="password" class="validate">
+                      <label for="password">Password</label>
+                      <a href="./pages/recover-password.html">Olvidé mi contraseña</a>
+                    </div>
+                  </div>
+                </form>
+                <a class="waves-effect waves-light btn" onclick="login()">Login</a>
+              </div>
+    </div>
+    <script src="./js/materialize.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
